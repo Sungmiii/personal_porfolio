@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sungmi Kim | Designer and Webdeveloper">
+    <title>Sungmi Kim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Vollkorn:400,600,700" rel="stylesheet">
+    <!-- google font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icon -->
+    <link rel="icon" href="./img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header data-aos="fade-down" data-aos-delay="50" data-aos-duration="1200">
+        <span><a href="./home.html" id="nameTitle">SUNGMI KIM</a></span>
+        <nav id="navbar">
+            <ul>
+                <div class="dropdown" id="portDropdown">
+                    <div class="dropdownbtn">Portfolio</div>
+                    <ul class="dropdown-list">
+                        <li><a href="./honeybier.html">Honey Bier</a></li>
+                        <li><a href="./weddinginvi.html">Wedding Invitation</a></li>
+                        <li><a href="./nightguide.html">Night Guide</a></li>
+                        <li><a href="./brochure.html">Literacy Brochure</a></li>
+                        <li><a href="./pawpal.html">Pawpal</a></li>
+                        <li><a href="./gitblog.html">GitHub Blog</a></li>
+                        <li><a href="./sup.html">Sup</a></li>
+                        <li><a href="./rsvp.html">RSVP Website</a></li>
+                    </ul>
+                </div>
+                <li><a href="aboutme.html" class="linkline">About me</a></li>
+            </ul>
+        </nav>
+        <!-- hamburgermenu -->
+        <nav class="mobilewrap">
+            <div class="hambuger">
+                <div class="hline"></div>
+                <div class="hline"></div>
+                <div class="hline"></div>
+            </div>
+            <ul class="mobilehidden">
+                <li><a href="./home.html">Home</a></li>
+                <div id="mo-subdrop">
+                    <div id="mo_portdropdown">Portfolio</div>
+                    <ul class=mo_dropdownlist>
+                        <li><a href="./honeybier.html">Honey Bier</a></li>
+                        <li><a href="./weddinginvi.html">Wedding Invitation</a></li>
+                        <li><a href="./nightguide.html">Night Guide</a></li>
+                        <li><a href="./brochure.html">Literacy Brochure</a></li>
+                        <li><a href="./pawpal.html">Pawpal</a></li>
+                        <li><a href="./gitblog.html">GitHub Blog</a></li>
+                        <li><a href="./sup.html">Sup</a></li>
+                        <li><a href="./rsvp.html">RSVP Website</a></li>
+                    </ul>
+                </div>
+                <li><a href="./aboutme.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="grid">
+        <aside class="side1">
+            <p></p>
+        </aside>
+        <aside class="content aboutmecontent">
+            <article>
+                <h3>Hello, :)</h3>
+                <h4 class="aboutmeh4">About me</h4>
+                <p class="content-p">
+                    I like making things beautiful, and I believe that in order to achieve this you need a marry the
+                    processes of design and development. I’ve studied design in Korea and have been in New Zealand for
+                    the last 7 years so I have a unique perspective.
+                </p>
+                <h4 class="aboutmeh4">Capabilities</h4>
+                <ul>
+                    <li>Branding</li>
+                    <li>Illustration</li>
+                    <li>Motion Graphic</li>
+                    <li>Web Design</li>
+                    <li>Web Development</li>
+                </ul>
+                <h4 class="aboutmeh4">Contact me</h4>
+                <p><a href="http://sungmikim.org/work/KSMCV.pdf" target="_blank">View My Resume</a></p>
+            </article>
+        </aside>
+        <aside class="imageside">
+            <img class="aboutmephotome" src="./img/flower.png" alt="meandwithmylittledog">
+        </aside>
+        <aside class="side2"></aside>
+    </main>
+    <!-- footer -->
+    <footer class="footerScale">
+        <ul class="linkicon">
+            <li><a class="behanceicon" href="https://www.behance.net/christyksm2a5e" target="_blank"></a></li>
+            <li><a class="github githubicon" href="https://github.com/Sungmiii?tab=repositories" target="_blank"></a></li>
+        </ul>
+        <p class="copyright">&copy; Sungmi Kim. All rights reserved. | christyksmile@gmail.com</p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine',
+        })
+    </script>
+</body>
+
+</html>
